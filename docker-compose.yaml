@@ -72,8 +72,7 @@ volumes:
   assets:
   db-data:
   logs:
-  private-files:      - public-files:/var/www/html/files
-
+  private-files:
   public-files:
   saas-files:
   sessions:
