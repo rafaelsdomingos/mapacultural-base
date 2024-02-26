@@ -18,7 +18,7 @@ services:
   mapasculturais:
     env_file:
       - .env
-    image: rafaelsdomingos/mapacultural:latest
+    image: secultceara/mapacultural:latest
     restart: unless-stopped
     volumes:
       - ./.env:/.env
